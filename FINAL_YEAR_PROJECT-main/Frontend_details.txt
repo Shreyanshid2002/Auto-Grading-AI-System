@@ -1,0 +1,48 @@
+1: Project Overview
+
+"Good [morning/afternoon], everyone. Today, I'll be presenting a project I developed, which focuses on a seamless and user-friendly assignment submission process. The system collects user details, allows multiple file uploads, and manages the storage of uploaded files effectively. It's built using HTML, CSS, JavaScript on the front end, and Node.js with Multer on the back end."
+
+2: Key Features
+
+"The project consists of several key features:
+
+Form Submission: The first page collects user details like name, email, and phone number.
+File Upload Interface: The second page allows users to upload files, with the option to dynamically add or remove file upload fields.
+File Storage: Files are stored in the server, structured by user folders.
+User Experience: After file submission, users are redirected to a 'Thank You' page, ensuring a smooth flow."
+
+3: Technology Stack
+
+"The project uses:
+
+HTML/CSS: For the front-end structure and styling.
+JavaScript: For dynamic interactions like adding and removing file input fields.
+Node.js with Multer: On the back end, Node.js serves the pages and handles the file uploads, while Multer processes and stores the files in the desired directories."
+
+4: Front-End Demonstration
+
+"Let me first walk you through the front end.
+
+The initial page is a simple form where users enter their name, email, and phone number. Upon submission, the phone number is stored in localStorage and the user is redirected to the upload page.
+On the upload page, users can dynamically add or remove file upload fields. There's also validation to ensure that every file input has a file selected before submission."
+
+5: Back-End Functionality
+
+"On the back end, I’ve used Node.js to manage the server and Multer for file handling.
+
+When a user submits the form and uploads files, the server ensures that a directory is created for each user based on their details.
+The files are stored in a structured folder system, where each user has their own folder for better organization and management.
+After successful upload, the user is redirected to a 'Thank You' page."
+
+
+6: Code Walkthrough
+
+"I'll now give a quick overview of the code:
+
+HTML/JavaScript: The first form page captures user details and uses JavaScript to save the phone number in localStorage. The upload page uses JavaScript to dynamically add or remove file inputs.
+Node.js: The server manages static file serving and file uploads. The Multer middleware is responsible for processing the files and storing them in user-specific directories."
+
+7: Conclusion
+
+"In conclusion, this project aims to make the assignment submission process efficient by providing a user-friendly front end and a robust back end for file handling. This project can be expanded further to include more features like user authentication or database integration for storing submission data."
+
